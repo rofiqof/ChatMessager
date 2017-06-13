@@ -1,0 +1,132 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:id="@+id/scrollView2"
+    android:background="@color/colorPrimary">
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:gravity="center"
+    android:background="@color/colorPrimary">
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imagLogo"
+            android:src="@drawable/logo" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/editLEmail"
+            android:hint="Email"
+            android:textColorHint="#ffffff"
+            android:textColor="#ffffff"
+            android:layout_marginTop="40dp"
+            android:padding="10dp"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:id="@+id/editLpassword"
+            android:hint="Password"
+            android:textColorHint="#ffffff"
+            android:padding="10dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="10dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="Login"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:background="@drawable/red_button"
+            android:id="@+id/buttonLLogin1"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="center_horizontal"
+            android:textAllCaps="false"
+            style="@style/Base.TextAppearance.AppCompat"/>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Forgot Password"
+                android:textColor="#ffffff"
+                android:background="@android:color/transparent"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:id="@+id/buttonLPassword1"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="10dp"
+                android:textAllCaps="false"
+                style="@style/Base.TextAppearance.AppCompat"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/ll"/>
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Register"
+                android:textColor="#ffffff"
+                android:id="@+id/buttonLRegister1"
+                android:background="@android:color/transparent"
+                android:layout_marginRight="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignLeft="@+id/ll"
+                android:layout_alignParentEnd="true"
+                android:textAllCaps="false"
+                style="@style/Base.TextAppearance.AppCompat"/>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true">
+                <View
+                    android:id="@+id/View01"
+                    android:layout_width="2dip"
+                    android:layout_height="30dp"
+                    android:background="#ffffff" />
+                </LinearLayout>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>

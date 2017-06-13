@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/colorPrimaryBack"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/colorPrimary"
+        android:padding="0dp">
+
+        <TextView
+            android:id="@+id/mytext"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:paddingLeft="15dp"
+            android:text="Chat Messanger"
+            android:textColor="#ffffff"
+            android:textSize="17sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/btnSetting"
+            android:layout_width="32dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:src="@drawable/ic_person_24dp" />
+
+    </RelativeLayout>
+
+    <!-- <EditText
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:id="@+id/editSearch"
+     android:layout_marginTop="8dp"
+     android:hint="  Search"
+     android:layout_marginLeft="5dp"
+     android:layout_marginRight="5dp"
+     android:singleLine="true"
+     android:drawableLeft="@drawable/abc_ic_search_api_mtrl_alpha"
+     />-->
+
+
+    <LinearLayout
+        android:id="@+id/ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ListView
+            android:id="@+id/listUser"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="1dp"
+            android:background="#ffffff"
+            android:divider="@drawable/devider"
+            android:dividerHeight="0.5dp" />
+
+    </LinearLayout>
+
+    <!-- <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:orientation="horizontal"
+         android:gravity="center"
+         android:layout_weight="0"
+         android:background="@drawable/line_border"
+         android:paddingTop="5dp"
+         android:layout_alignParentBottom="true"
+         android:id="@+id/Lbottom1">
+
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/favorites"
+             android:textAllCaps="false"
+             style="@style/Base.TextAppearance.AppCompat"
+             android:drawableTop="@drawable/star"
+             android:id="@+id/buttonFavorit"
+             android:background="#ffffff"
+             android:layout_gravity="right|bottom"
+             />
+
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/chat"
+             android:id="@+id/buttonChat"
+             android:textAllCaps="false"
+             style="@style/Base.TextAppearance.AppCompat"
+             android:drawableTop="@drawable/speech"
+             android:background="#ffffff"
+             android:layout_gravity="center|bottom"
+             android:layout_marginLeft="35dp"
+             android:layout_marginRight="35dp"/>
+         <Button
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="@string/myprofile"
+             android:textAllCaps="false"
+             style="@style/Base.TextAppearance.AppCompat"
+             android:drawableTop="@drawable/user"
+             android:background="#ffffff"
+             android:layout_gravity="right|bottom"
+             android:id="@+id/buttonProfile"
+             />
+ </LinearLayout>-->
+
+</LinearLayout>

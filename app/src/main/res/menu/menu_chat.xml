@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<item-->
+        <!--android:id="@+id/menu_video"-->
+        <!--android:title="@string/video"-->
+        <!--app:showAsAction="always"-->
+        <!--android:icon="@drawable/ic_videocam_24dp"/>-->
+
+    <!--<item-->
+        <!--android:id="@+id/menu_call"-->
+        <!--android:title="@string/call"-->
+        <!--app:showAsAction="always"-->
+        <!--android:icon="@drawable/ic_call_24dp"/>-->
+
+    <item
+        android:id="@+id/menu_view_contact"
+        android:title="@string/view_contact"/>
+
+    <item
+        android:id="@+id/menu_media"
+        android:title="@string/media"/>
+
+    <item
+        android:id="@+id/menu_search"
+        android:title="@string/search"/>
+
+    <item
+        android:id="@+id/menu_mute"
+        android:title="@string/mute"/>
+
+    <item
+        android:id="@+id/menu_wallpaper"
+        android:title="@string/wallpaper"/>
+
+    <item
+        android:title="@string/more">
+        <menu>
+            <item
+                android:id="@+id/menu_block"
+                android:title="@string/block"
+                android:enabled="false"/>
+
+            <item
+                android:id="@+id/menu_clear_chat"
+                android:title="@string/clear_chat" />
+
+            <item
+                android:id="@+id/menu_email_chat"
+                android:title="@string/email_chat"/>
+
+            <item
+                android:id="@+id/menu_add_shortcut"
+                android:title="@string/add_shortcut" />
+        </menu>
+    </item>
+
+</menu>

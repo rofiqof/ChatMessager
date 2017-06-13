@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/colorPrimaryBack"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="app.com.mychat.FirstActivity">
+
+    <EditText
+        android:hint="Enter mobile number"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        android:ems="10"
+        android:id="@+id/edtMobile"
+        android:textColor="@color/colorGray_text"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/edtOTP"
+        android:textColor="@color/colorGray_text"
+        android:layout_below="@+id/btnOTP"
+        android:layout_alignRight="@+id/btnOTP"
+        android:layout_alignEnd="@+id/btnOTP"
+        android:layout_alignLeft="@+id/btnOTP"
+        android:layout_alignStart="@+id/btnOTP" />
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:id="@+id/btnOTP"
+        android:layout_below="@+id/edtMobile"
+        android:layout_alignLeft="@+id/edtMobile"
+        android:layout_alignStart="@+id/edtMobile"
+        android:layout_alignRight="@+id/edtMobile"
+        android:layout_alignEnd="@+id/edtMobile"
+        fancy:fb_borderColor="@color/colorPrimary"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#fff1f6"
+        fancy:fb_focusColor="@color/colorPrimary"
+        fancy:fb_fontIconSize="25sp"
+        fancy:fb_iconPosition="right"
+        fancy:fb_iconPaddingLeft="20dp"
+        fancy:fb_iconPaddingRight= "0dp"
+        fancy:fb_radius="20dp"
+        fancy:fb_text="Get OTP"
+        fancy:fb_textColor="@color/colorPrimary"/>
+
+    <!--<Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:text="Get OTP"
+        android:textColor="#FAFAFA"
+        android:background="@drawable/round_button_press"
+        android:id="@+id/btnOTP"
+        android:layout_below="@+id/edtMobile"
+        android:layout_alignLeft="@+id/edtMobile"
+        android:layout_alignStart="@+id/edtMobile"
+        android:layout_alignRight="@+id/edtMobile"
+        android:layout_alignEnd="@+id/edtMobile" />
+-->
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:textColor="#FAFAFA"
+        android:id="@+id/btnNextFirst"
+        android:layout_below="@+id/edtOTP"
+        android:layout_alignLeft="@+id/edtOTP"
+        android:layout_alignStart="@+id/edtOTP"
+        android:layout_alignRight="@+id/edtOTP"
+        android:layout_alignEnd="@+id/edtOTP"
+        fancy:fb_borderColor="@color/colorPrimary"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_defaultColor="#fff1f6"
+        fancy:fb_focusColor="@color/colorPrimary"
+        fancy:fb_fontIconSize="25sp"
+        fancy:fb_iconPosition="right"
+        fancy:fb_iconPaddingLeft="20dp"
+        fancy:fb_iconPaddingRight= "0dp"
+        fancy:fb_radius="20dp"
+        fancy:fb_text="Next"
+        fancy:fb_textColor="@color/colorPrimary"/>
+
+
+    <ImageView
+        android:layout_marginBottom="25dp"
+        android:src="@drawable/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView2"
+        android:layout_above="@+id/edtMobile"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

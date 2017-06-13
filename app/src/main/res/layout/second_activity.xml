@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryBack"
+    tools:context="app.com.mychat.FirstActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:layout_marginTop="20dp"
+            android:hint="Your name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:ems="10"
+            android:id="@+id/edtUsername"
+            android:layout_below="@+id/relativeLayout"
+            android:layout_centerHorizontal="true" />
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/btnGo"
+            android:layout_below="@+id/edtUsername"
+            android:layout_alignLeft="@+id/edtUsername"
+            android:layout_alignStart="@+id/edtUsername"
+            android:layout_alignRight="@+id/edtUsername"
+            android:layout_alignEnd="@+id/edtUsername"
+            fancy:fb_borderColor="@color/colorPrimary"
+            fancy:fb_borderWidth="1dp"
+            fancy:fb_defaultColor="#fff1f6"
+            fancy:fb_focusColor="@color/colorPrimary"
+            fancy:fb_fontIconSize="25sp"
+            fancy:fb_iconPosition="right"
+            fancy:fb_iconPaddingLeft="20dp"
+            fancy:fb_iconPaddingRight= "0dp"
+            fancy:fb_radius="20dp"
+            fancy:fb_text="GO"
+            fancy:fb_textColor="@color/colorPrimary"/>
+
+        <RelativeLayout
+            android:layout_marginTop="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:id="@+id/relativeLayout">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_width="120dp"
+                android:layout_height="120dp"
+                android:id="@+id/imgPic"
+                android:tag="none"
+                android:src="@drawable/img_pic"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+    </RelativeLayout>
+</RelativeLayout>

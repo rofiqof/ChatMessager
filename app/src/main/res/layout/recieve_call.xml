@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fancy="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context="app.com.mychat.CallActivity">
+
+    <RelativeLayout
+        android:id="@+id/rrOne"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    <ImageView
+        android:padding="50dp"
+        android:src="@drawable/img_pic"
+        android:id="@+id/imgCallImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_marginLeft="30dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/btnCall"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:padding="2dp"
+        fancy:fb_defaultColor="#1B5E20"
+        fancy:fb_focusColor="@color/colorPrimaryLight"
+        fancy:fb_iconResource="@drawable/img_call"
+        fancy:fb_fontIconSize="25dp"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="30dp"
+        fancy:fb_borderColor="#1B5E20"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_textColor="#FAFAFA"
+        android:layout_alignParentBottom="true"  />
+
+    <mehdi.sakout.fancybuttons.FancyButton
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="20dp"
+        android:id="@+id/btnend"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:padding="2dp"
+        fancy:fb_defaultColor="#b71c1c"
+        fancy:fb_focusColor="@color/colorPrimaryLight"
+        fancy:fb_iconResource="@drawable/img_endcall"
+        fancy:fb_fontIconSize="25dp"
+        fancy:fb_iconPosition="left"
+        fancy:fb_radius="30dp"
+        fancy:fb_borderColor="#b71c1c"
+        fancy:fb_borderWidth="1dp"
+        fancy:fb_textColor="#FAFAFA"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/rrTwo"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:fancy="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context="app.com.mychat.CallActivity">
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:src="@drawable/img_pic"
+            android:id="@+id/imgCallImage2"
+            android:layout_width="match_parent"
+            android:layout_height="130dp" />
+
+        <TextView
+            android:textColor="@color/colorPrimaryDark"
+            android:gravity="center"
+            android:textSize="15dp"
+            android:layout_below="@+id/imgCallImage2"
+            android:layout_margin="5dp"
+            android:id="@+id/txtCallerName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+       <TextView
+            android:layout_below="@+id/txtCallerName"
+            android:gravity="center"
+            android:id="@+id/txtState"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+             android:gravity="center"
+            android:layout_above="@+id/btnCallend2"
+            android:layout_below="@+id/txtCallerName"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_margin="5dp"
+                        android:drawableTop="@drawable/video_call_white"
+                        android:text="Video"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorPrimary"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="0dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/btnMute"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_margin="5dp"
+                        android:drawableTop="@drawable/no_micro_white"
+                        android:text="Mute"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorPrimary"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="0dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        android:id="@+id/btnLaudspeker"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_margin="5dp"
+                        android:drawableTop="@drawable/yes_audio_white"
+                        android:text="Audio"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorPrimary"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="0dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+                <LinearLayout
+
+                    android:orientation="horizontal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <Button
+                        android:id="@+id/btnAdd"
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_margin="5dp"
+                        android:drawableTop="@drawable/add_user_white"
+                        android:text="Add"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorPrimary"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="0dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_margin="5dp"
+                        android:drawableTop="@drawable/keypad_white"
+                        android:text="Dialer"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorPrimary"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="0dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                    <Button
+                        style="?android:attr/buttonBarButtonStyle"
+                        android:layout_margin="5dp"
+                        android:drawableTop="@drawable/more_white"
+                        android:text="More"
+                        android:textAllCaps="false"
+                        android:textColor="@color/colorPrimary"
+                        android:background="@android:color/transparent"
+                        android:drawablePadding="0dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <!--
+        <Button
+             android:layout_margin="10dp"
+             android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:text="Call"
+             android:paddingLeft="15dp"
+             android:textSize="20dp"
+             android:id="@+id/btnCall"
+             android:drawableLeft="@drawable/img_call"
+             android:textColor="#FAFAFA"
+             android:background="@drawable/round_button_press"
+             android:layout_alignParentBottom="true"
+             android:layout_alignParentLeft="true"
+             android:layout_alignParentStart="true"
+             android:layout_alignParentRight="true"
+             android:layout_alignParentEnd="true" />
+     -->
+
+        <mehdi.sakout.fancybuttons.FancyButton
+            android:id="@+id/btnCallend2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:padding="2dp"
+            android:layout_marginBottom="10dp"
+            fancy:fb_defaultColor="#b71c1c"
+            fancy:fb_focusColor="@color/colorPrimaryLight"
+            fancy:fb_iconResource="@drawable/img_endcall"
+            fancy:fb_fontIconSize="25dp"
+            fancy:fb_iconPosition="left"
+            fancy:fb_radius="30dp"
+            fancy:fb_borderColor="@color/colorPrimaryDark"
+            fancy:fb_borderWidth="1dp"
+            fancy:fb_textColor="#FAFAFA"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true" />
+
+    </RelativeLayout>
+</RelativeLayout>

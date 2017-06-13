@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              android:weightSum="5"
+              xmlns:fancy="http://schemas.android.com/apk/res-auto"
+              android:background="#ffffffff">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="0"
+            android:background="#00fafafa">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:padding="0dip"
+            android:layout_weight="5"
+            android:background="@drawable/chatbglight"
+            android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/remoteVideo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal"/>
+
+        <TextView
+            android:id="@+id/remoteUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="10dp"
+            android:text=""
+            android:shadowColor="@color/colorGray_text"
+            android:shadowRadius="5"
+            android:shadowDx="-5"
+            android:textColor="@color/colorAccent"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/remoteUser"
+            android:id="@+id/callState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="Ringing"
+            android:textColor="@color/colorPrimary"
+            android:textSize="16sp"
+            android:shadowColor="@color/colorGray_text"
+            android:shadowRadius="5"
+            android:shadowDx="-5"
+            android:textAllCaps="true"/>
+
+        <TextView
+            android:layout_marginLeft="10dp"
+            android:layout_below="@+id/callState"
+            android:id="@+id/callDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="4dp"
+            android:text="00:00"
+            android:shadowColor="#ff1967"
+            android:shadowRadius="5"
+            android:shadowDx="-5"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorGray_text"
+            android:textSize="16sp"/>
+
+        <RelativeLayout
+            android:id="@+id/localVideo"
+            android:layout_width="150dp"
+            android:layout_alignParentRight="true"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true" />
+
+        <LinearLayout
+            android:id="@+id/WaitVideo"
+            android:gravity="center"
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal">
+
+           <!-- <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/imgWait"
+                android:layout_width="200dp"
+                android:layout_height="200dp" />-->
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/bottomPanel"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="50dp"
+            android:background="#00000000">
+
+            <ImageButton
+                android:layout_marginRight="10dp"
+                android:id="@+id/btnMute"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_alignParentBottom="true"
+                android:layout_alignTop="@+id/hangupButton"
+                android:background="@android:color/transparent"
+                android:src="@drawable/no_micro_white"
+                android:textAllCaps="false"
+                android:textColor="@color/colorPrimary" />
+
+
+            <mehdi.sakout.fancybuttons.FancyButton
+                android:layout_alignParentBottom="true"
+                android:layout_margin="0dp"
+                android:id="@+id/hangupButton"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                fancy:fb_defaultColor="@color/colorPrimary"
+                fancy:fb_focusColor="@color/colorPrimaryLight"
+                fancy:fb_iconResource="@drawable/img_endcall"
+                fancy:fb_fontIconSize="25dp"
+                fancy:fb_iconPosition="left"
+                fancy:fb_radius="30dp"
+                fancy:fb_borderColor="@color/colorPrimaryDark"
+                fancy:fb_borderWidth="1dp"
+                fancy:fb_textColor="#FAFAFA"/>
+
+        </LinearLayout>
+    </RelativeLayout>
+</LinearLayout>

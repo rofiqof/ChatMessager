@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/.android/build-cache/42feb928188b0f7a1e87f88b5168d6de823f956e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="914f5d3e3ace66080e59613708f06d129a222e25">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_66b07de90fa191266f14dcaa50628a241f7d857c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/.gradle/caches/modules-2/files-2.1/com.pubnub/pubnub-android/3.7.10/5ea337b9dcdd6c62a2c45471de5fc6da1af63254/pubnub-android-3.7.10.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5ea337b9dcdd6c62a2c45471de5fc6da1af63254">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/pubnub-android-3.7.10_021a36f62227769529ae72fb38fe9ad6bf2dbb7e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/.gradle/caches/modules-2/files-2.1/junit/junit/4.12/2973d150c0dc1fefe998f834810d68f278ea58ec/junit-4.12.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="2973d150c0dc1fefe998f834810d68f278ea58ec">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/junit-4.12_8cf8b7fc8981d9b1af8314050d75fdb4077502dc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-beta4/constraint-layout-solver-1.0.0-beta4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="0a9cb567dc008f570c28531720168f19148da965">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-beta4_049037ca4681fa5356a050996d9687b4e33bdf6c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/.android/build-cache/b7215cda11b6d1faff5f9d0d09a5d5129ed585e1/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_4d2363dac1264e405d279b9f3a12744a4da1fd1b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/.android/build-cache/83f5b9fbefb6a6e899aa82c0acc3529bf693a876/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7c369ac43f36053910433dada860773a8d3b4366">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_015fe5360b70f0f273fe50905025782bc654cac4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/.android/build-cache/3da5763ec7df8670817419f1c4b15066dbc2de7b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_64c8ebbfc15230214a50e940099e21e9290d4d1a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.7.0/9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4/glide-3.7.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9e9eeaf9948ee4d6c3ab354e8dc14368f16994a4">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/glide-3.7.0_e75e131d790ede4889513dfe252d6515eac9f1dd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/.android/build-cache/802506c364d8c739740503f1ee7bee7664d2f26f/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_af377354535f44399643506992109582fdac4d07/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/.android/build-cache/6e84a79c5065b5ac851fa5f89a41d83ca2f4de0b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_1c83ccddb24f8350891ee8fbdb5b287eb04f9b69/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_97f0c43cff1871c45ac3288a5efe430d8c3d5336/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/.android/build-cache/869ddacab743a9b1f3fbe31838e6196426065b08/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4b868b833b0887aa48c4e581558eef4f1196f6a2">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_40d91c6f6a7e10fd41cb6680575bbee80a4107be/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/.android/build-cache/904f5d6eed52d9e2956273b7b0a8a0917c00e67b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="662d7533b25a666c649c10a16b42edfb95f25a4f">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9c34263fbf7b862b401db651bef375d7f19af43b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/libs/httpclient-4.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="64849efdc10ea21eed3be7cc19ea7ec5af186776">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpclient-4.2.1_51e726d6c91e9754af63c6c0a0a0bb6968440001/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="00df61cdfe3e1b10bac6a7d5d04c4c7bff2a25f0">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_1c0b4537e6b218b9f2d810e546d74f1391f642d4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/.android/build-cache/74bb0f85c47d23813ccc8d90a7661ab1fee1abe8/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="95519720620b553f63afc789beba9ad582807f7c">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0e9c89b5972dbf11fb527de11342e249b79210cd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/.android/build-cache/9f7b9edc06879bb83bd69525b5308bfc5772bfa4/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_0d0ddeaa7437054683e7ffa3d1ece3f171cc44a3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/.android/build-cache/0e97004620b33aa632000cdbde0000bc92a0d1c9/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="936fd700a7501509fec8ac684707b771e369fa62">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_d6571e0cc230c3f1b5b1c41cb5cf331651ed3eab/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/.android/build-cache/f72f8d0da3bb0ec864e7d494442403c250da567c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_c58640cdec11a6f49902cfbec874d9a3a95b8ffd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/libs/pubnub-4.0.14-all.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="9da79724cc73b0250c3be973c8677388c55bcdb6">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/2/pubnub-4.0.14-all_bae57d322b1b9d615f88131e9c30425a418de912/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/.android/build-cache/6fcb2af26be712c6710c6034c7701ad205b661ab/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_329aa3466481007dbcfd5842e89f849302be674a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/25.3.1/support-annotations-25.3.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-25.3.1_32d723b0c3075d876ef709a73d6a79b2655cb098/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/libs/sinch-android-rtc-3.9.10.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6b90fc6988643fb7d173d85a3c52227778978715">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/2/sinch-android-rtc-3.9.10_6ba0e72366b05539835dae1725144b592ce83850/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/.android/build-cache/8d03530ab90c9d800a81b2548f6f21078f457c09/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7f2180e9b9a0efcf449013783a9f2c922016ce4a">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_a5835a71b84ace18d64e4b5e12f074cd5828d4b2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/.android/build-cache/e6ffd94251d75d2f21ce7fb0ecdfb8a695b11b7a/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e8d63a4db615acc515153328c936a9cd0cb2b3ff">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_89467afc8a7b8a8fd147c0f258820b4463ba7eaa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/.android/build-cache/f933e11d3cda2eec296eaaaa0da9dc98d6895680/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7bb5aff9d496b63ca3069bd0a893c3132367f27d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/exploded-aar/pl.droidsonroids.gif/android-gif-drawable/1.1.18-SNAPSHOT/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="528332d175c8065c8d29a1939f0bf17df80137e1">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/pl.droidsonroids.gif-android-gif-drawable-1.1.18-SNAPSHOT_562347c3565745812779109af6847d603cdde239/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/libs/picasso-2.5.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/2/picasso-2.5.2_200b684a2c6e6c22f17699bcc04d66f3f58c117a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/.android/build-cache/6b99069d1c1cbe6f1ea8e7ae447a634109bc7338/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="78ea232052df889856dcb7b7b542707c89bb3bfb">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_49b2f8bd90228d265c6daf98b6bf429336d52424/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/.android/build-cache/4fe8dbb177fbb6078cbee5db1f1e2e7e42200acb/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6b7c1c44489b7d0671ba278029f2db86996ae81d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/libs/bolts-android-1.2.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="44780c2cf98f6a3cf4e77f1234d644758b329201">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/2/bolts-android-1.2.1_4a7d577cd449fecdfd948ad6106c07f5dc99f9f8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/.android/build-cache/b223a4d48bfe409d2ffbfb1283823a138bb7f01e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1c3b9743fe8bb166a90a7e98b9b9f1f8021d80cd">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_de15e4b498b4ab4586486b023c8ad09bd51a3533/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/.android/build-cache/949f31b77330fbd73c696a2e2d9ff69f6a0cd1a6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6534c4151a684c9f7b8fca80ff9862a26e2937d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/.android/build-cache/5192176adba28dfa3ef905b3297152e7852ba8b6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_6cfaf96e8d5f0d99b1236a7101b9cec3bfe25f1b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/.gradle/caches/modules-2/files-2.1/org.hamcrest/hamcrest-core/1.3/42a25dc3219429f0e5d060061f71acb49bf010a0/hamcrest-core-1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="42a25dc3219429f0e5d060061f71acb49bf010a0">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/hamcrest-core-1.3_a1b5d5952cd5dc4f3deee427fd9cf81e8e11ab81/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/.android/build-cache/9a0603fcd36cbc7641b2b8bc6e3b37eb3c58fa97/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_3698c8b6c37801b211fb934161bdf5f1a195d751/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/libs/httpcore-4.4.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="f5aa318bda4c6c8d688c9d00b90681dcd82ce636">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/2/httpcore-4.4.1_30c6e91b650584c82a024c80f37ac1fd5a6264a5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.4/5fe28b9518e58819180a43a850fbc0dd24b7c050/commons-lang3-3.4.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="5fe28b9518e58819180a43a850fbc0dd24b7c050">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/commons-lang3-3.4_ab7e933e572eeb7e759d3d172c8fcbc703f05c92/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/rofiqoff/.android/build-cache/baaeb2b75926550917a9dc36e4f3152e3c62bf9b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
+        <dex dex="/home/rofiqoff/Documents/projectChat/f2f227b6-527e-461b-88f9-ba6c5afcec2a (1)/mychat_march2017/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_21fbca41eaedfe72f41ebde0285ef8a431da2f4e/classes.dex" />
+    </item>
+
+</items>
